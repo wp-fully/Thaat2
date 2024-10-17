@@ -58,6 +58,7 @@ add_action( 'init', 'thaat_register_directories_taxonomies' );
 <!--#################################################################  -->
 <!--#################################################################  -->
 // Shortcode to display City and Speciality Filters
+<!-- Shortcode [directory_filters] -->
 function thaat_directory_filters_shortcode() {
 
     // Get terms for City and Speciality taxonomies
